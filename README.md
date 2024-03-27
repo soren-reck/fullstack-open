@@ -5,7 +5,7 @@ The goal is to learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in o
 
 ### Recurse Center Spring 2024 Batch 
 
-- Part 0: Fundamentals of Web apps
+- [Part 0: Fundamentals of Web apps](./part0/README.md)
 - Part 1: Introduction to React
 - Part 2: Communicating with server
 - Part 3: Programming a server with NodeJS and Express
