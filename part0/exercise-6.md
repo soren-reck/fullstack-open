@@ -27,6 +27,14 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
+
+
+    Note right of browser: When the user hits submit on the form, the browser sends the new note content to the server in JSON format
+
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+
+    Note right of browser: The browser executes the event handler that displays the new note
     
 ```
 
