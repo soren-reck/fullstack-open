@@ -1,8 +1,5 @@
-# React + Vite
+# Exercises 1.1 - 1.2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Exercise 1.1: Refactor given code displaying course info that was previously only in one component so that it consists of three new components: Header, Content, and Total.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Exercise 1.2: Refactor the Content component so that it does not render any names of parts or their number of exercises by itself. Instead, it only renders three Part components of which each renders the name and number of exercises of one part.
